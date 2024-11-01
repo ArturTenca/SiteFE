@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import bgimage from '../../public/carro.png'
 export const LoginStyle = styled.section`
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -12,7 +12,7 @@ export const LoginStyle = styled.section`
 .container{
     width:100%;
     margin: 0 auto;
-    background-image: url('./src/assets/carro.png');
+    background-image: url(${bgimage});
     background-size: cover;
     margin-top: -40px;
 }
