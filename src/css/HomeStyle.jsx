@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import imagem from './public/imagem.png'
+import imagem2 from './src/assets/Frame2.png'
 export const HomeStyle = styled.section`
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -18,7 +20,7 @@ export const HomeStyle = styled.section`
     display: flex;
     align-items: center;
     justify-content:center;
-    background-image: url('./public/imagem.png');
+    background-image: url(${imagem});
     background-size: cover;
     margin-top: -40px;
     
@@ -70,7 +72,7 @@ form p{
     display: flex;
     align-items: center;
     justify-content:center;
-    background-image: url('./src/assets/Frame2.png');
+    background-image: url(${imagem2});
     background-size: cover;
     
 }
