@@ -1,52 +1,60 @@
 import {FooterStyle} from '../css/FooterStyle'
 import { Link } from 'react-router-dom'
+import mahindra from "../../public/mahindrab.png"
+import email from "../../public/icons8-nova-mensagem-24.png"
+import insta from "../../public/icons8-instagram-24.png"
+import linha1 from "../../public/Line 10.png"
+import linha2 from "../../public/Line 11.png"
+import logob from "../../public/logob.png"
+import fe from "../../public/Fe.png"
+
 
 const Footer = () => {
     return (
         <FooterStyle>
             <section className='footer1'>
                 <div className='div'>
-                    <img src="./src/assets/mahindrab.png" alt="techmahindra" className='img' />
+                    <img src={mahindra} alt="techmahindra" className='img' />
                     <div className='email'>
-                        <img src="./src/assets/icons8-nova-mensagem-24.png" alt="" />
+                        <img src={email} alt="" />
                         <p>Contato@TechMahindra.com.br</p>
                     </div>
 
                     <div className='insta'>
-                        <img src="./src/assets/icons8-instagram-24.png" alt="" />
+                        <img src={insta} alt="" />
                         <a href="https://www.instagram.com/techmahindra_official/">Tech Mahindra</a>
                     </div>
                 </div>
 
-                <img src="./src/assets/Line 10.png" alt="" className='line' />
-                <img src="./src/assets/Line 11.png" alt="" className='line1' />
+                <img src={linha1} alt="" className='line' />
+                <img src={linha2} alt="" className='line1' />
 
 
                 <div className='div'>
-                    <img src="./src/assets/Fe.png" alt="" className='img' />
+                    <img src={fe} alt="" className='img' />
                     <div className='email'>
-                        <img src="./src/assets/icons8-nova-mensagem-24.png" alt="" />
+                        <img src={email} alt="" />
                         <p>Contato@FormulaE.com.br</p>
                     </div>
 
                     <div className='insta'>
-                        <img src="./src/assets/icons8-instagram-24.png" alt="" />
+                        <img src={insta} alt="" />
                         <a href="https://www.instagram.com/fiaformulae/">Formula E</a>
                     </div>
                 </div>
 
-                <img src="./src/assets/Line 10.png" alt="" className='line' />
-                <img src="./src/assets/Line 11.png" alt="" className='line1' />
+                <img src={linha1} alt="" className='line' />
+                <img src={linha2} alt="" className='line1' />
 
                 <div className='Div1'>
-                    <img src="./src/assets/logob.png" alt="" className='imlogo' />
+                    <img src={logob} alt="" className='imlogo' />
                     <div className='email'>
-                        <img src="./src/assets/icons8-nova-mensagem-24.png" alt="" />
+                        <img src={email} alt="" />
                         <p>Contato@DataSphere.com.br</p>
                     </div>
 
                     <div className='insta'>
-                        <img src="./src/assets/icons8-instagram-24.png" alt="" />
+                        <img src={insta} alt="" />
                         <a href="https://www.instagram.com/datasphere_solutions/">Data Sphere</a>
                     </div>
                 </div>
