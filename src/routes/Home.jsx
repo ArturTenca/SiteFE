@@ -1,6 +1,6 @@
 
 import {HomeStyle}  from "../css/HomeStyle"
-
+import mah from '../../public/mahindra.png'
 const Home = () => {
     return (
 
@@ -11,7 +11,7 @@ const Home = () => {
                         <div className="logos">
                             <img className="fe" src='../../public/Formula_E2.png' alt="Formula1" />
                             <img className="dot" src='../../public/dot.png' alt="teste" />
-                            <img className="mahindra" src='../../public/mahindra.png' alt="teste" />
+                            <img className="mahindra" src={mah} alt="teste" />
                         </div>
                         <p>A Tech Mahindra em parceria com a Formula E colaboraram para aprimorar o desenvolvimento de soluções tecnológicas e digitais nas experiências da Formula E no Brasil. As mesmas colaboraram com a Data Sphere Solutions para expandir a popularidade da categoria no país.</p>
                     </form>
