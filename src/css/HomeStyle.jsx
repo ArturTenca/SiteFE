@@ -70,7 +70,7 @@ form p{
     display: flex;
     align-items: center;
     justify-content:center;
-    background-image: url('./src/assets/Frame 2.png');
+    background-image: url('./src/assets/Frame2.png');
     background-size: cover;
     
 }
