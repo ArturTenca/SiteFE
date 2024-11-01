@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import imagem from './public/imagem.png'
-import imagem2 from './src/assets/Frame2.png'
+import imagem from '../../public/imagem.png'
+import imagem2 from '../../public/Frame 2.png'
 export const HomeStyle = styled.section`
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
