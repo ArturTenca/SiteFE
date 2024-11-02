@@ -29,7 +29,7 @@ const Atividades = () => {
         <section className="form-container">
           <div className="container">
             <form>
-              <img src="../public/data.png" alt="" />
+              <img src="/data.png" alt="" />
               <div className='slide1'>
                 <SlideshowText texts={texts} interval={10000} />
               </div>
