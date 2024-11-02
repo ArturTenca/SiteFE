@@ -4,10 +4,10 @@ import { useSpring, animated } from 'react-spring';
 import  {SlideshowStyle}  from '../css/SlideshowStyle';
 
 const images = [
-    '../src/assets/pista.png',
-    '../src/assets/logofundo (2).png',
-    '../src/assets/pessoa.png',
-    '../src/assets/carrinho.png'
+    '../public/pista.png',
+    '../public/logofundo (2).png',
+    '../public/pessoa.png',
+    '../public/carrinho.png'
     
 ];
 

@@ -5,7 +5,7 @@ const Error = () => {
         <ErrorStyle> 
             <div>
                 <h1>Error 404-Page Not Found!</h1>
-                <img src="./src/assets/404.png" alt="" />
+                <img src="../public/404.png" alt="" />
             </div>
         </ErrorStyle> 
     )
